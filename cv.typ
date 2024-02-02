@@ -64,7 +64,7 @@
 #let addresstext(info, uservars) = {
     if uservars.showAddress {
         block(width: 100%)[
-            #info.personal.location.city, #info.personal.location.region, #info.personal.location.country #info.personal.location.postalCode
+            #info.personal.location.city, #info.personal.location.country
             #v(-4pt)
         ]
     } else {none}
@@ -101,6 +101,15 @@
     ]
 }
 
+#let cvsummary(info) = {
+    if info.summary != none {block[
+        == Summary
+        #for p in info.summary {
+            p
+        }
+    ]}
+}
+
 #let cvwork(info, isbreakable: true) = {
     if info.work != none {block[
         == Work Experience
@@ -124,13 +133,14 @@
                     // line 2: position and date range
                     #text(style: "italic")[#p.position] #h(1fr)
                     #start #sym.dash.en #end \
-                    // highlights or description
-                    #for hi in p.highlights [
-                        - #eval(hi, mode: "markup")
-                    ]
                 ]
                 index = index + 1
             }
+
+            // highlights or description
+            for hi in w.highlights [
+                - #eval(hi, mode: "markup")
+            ]
         }
     ]}
 }
@@ -143,7 +153,7 @@
             let end = utils.strpdate(edu.endDate)
 
             let edu-items = ""
-            if edu.honors != none {edu-items = edu-items + "- *Honors*: " + edu.honors.join(", ") + "\n"}
+            // if edu.honors != none {edu-items = edu-items + "- *Honors*: " + edu.honors.join(", ") + "\n"}
             if edu.courses != none {edu-items = edu-items + "- *Courses*: " + edu.courses.join(", ") + "\n"}
             if edu.highlights != none {
                 for hi in edu.highlights {
@@ -331,12 +341,12 @@
     ]} else {}
 }
 
-#let endnote() = {
-    place(
-        bottom + right,
-        block[
-            #set text(size: 5pt, font: "Consolas", fill: silver)
-            \*This document was last updated on #datetime.today().display("[year]-[month]-[day]") using #strike[LaTeX] #link("https://typst.app")[Typst].
-        ]
-    )
-}
+// #let endnote() = {
+//     place(
+//         bottom + right,
+//         block[
+//             #set text(size: 5pt, font: "Consolas", fill: silver)
+//             \*This document was last updated on #datetime.today().display("[year]-[month]-[day]") using #strike[LaTeX] #link("https://typst.app")[Typst].
+//         ]
+//     )
+// }

@@ -54,8 +54,6 @@
           "default": {},
           "required": [
             "city",
-            "region",
-            "postalCode",
             "country"
           ],
           "properties": {
@@ -134,8 +132,7 @@
               "required": [
                 "position",
                 "startDate",
-                "endDate",
-                "highlights"
+                "endDate"
               ],
               "properties": {
                 "position": {

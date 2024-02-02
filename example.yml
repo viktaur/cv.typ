@@ -1,143 +1,166 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/jskherman/cv.typ/main/cv.typ.schema.json
 
 personal:
-  name: John Smith L. Doe
-  email: johndoe@example.com
-  phone: (+1) 987 6543 210
-  url: https://johndoe.com
+  name: Victor Gabaldon
+  email: victorgabal@gmail.com
+  url: http://www.vgabaldon.com/
   location:
-    city: New York
-    region: New York
-    postalCode: 1234
-    country: United States of America
+    city: London
+    country: United Kingdom
   profiles:
     - network: LinkedIn
-      username: John Doe
-      url: https://linkedin.com/in/johndoe
+      username: Victor Gabaldon
+      url: https://www.linkedin.com/in/victor-gabaldon/
     - network: GitHub
-      username: johndoe
-      url: https://github.com/johndoe
+      username: viktaur
+      url: https://github.com/viktaur
+
+summary:
+  - Final year Computer Science student, currently leading the UoS Decentralised Society. In summer 2023, I graduated from the third edition of the Polkadot Blockchain Academy (PBA) and have been developing in Rust ever since.
+  - I have a deep understanding of computer networks, cryptography, blockchain and other distributed systems, as well as the mathematical foundations behind machine learning.
 
 work:
-  - organization: X Company
-    url: https://example.com
-    location: Remote / New York, New York
+  - organization: UoS Decentralised Society
+    url: https://soton-dsoc.org
+    location: Southampton, United Kingdom
+    highlights:
+      - Planned and delivered talks and workshops attended by dozens of students, instructed by members of the society's core team or experts in cryptography, economics, and game theory.
+      - Mentored students on peer-to-peer (P2P) networks, digital assets, and the Distributed Web (IPFS).
+      - Promoted and organised the logistics of events such as a hackathon in London, including travel arrangements for 30 people.
+      - Grew the total community membership from 0 to 400+.
+      - Developed the society's website in NextJS.
     positions:
-      - position: Senior Software Engineer
-        startDate: 2021-08-01
+      - position: President
+        startDate: 2023-04-01
         endDate: "present"
-        highlights:
-          - This being the theory I hold, why need I be afraid of not being able to reconcile it with the case of my ancestors?
-          - "The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
-          - Do you really believe that they charged an armed enemy, or treated their children, their own flesh and blood, so cruelly, without a thought for their own interest or advantage?
-      - position: Software Engineer
-        startDate: 2019-05-31
-        endDate: 2021-08-01
-        highlights:
-          - This being the theory I hold, why need I be afraid of not being able to reconcile it with the case of my ancestors?
-          - "The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
-          - Do you really believe that they charged an armed enemy, or treated their children, their own flesh and blood, so cruelly, without a thought for their own interest or advantage?
-  - organization: National Aeronautics and Space Administration - Jet Propulsion Laboratory
-    url: https://example.com
-    location: Pasadena, California
+      - position: Vice President
+        startDate: 2023-03-01
+        endDate: 2023-04-01
+      - position: Education Officer
+        startDate: 2021-09-01
+        endDate: 2022-03-01
+
+  - organization: CTIC Technology Centre
+    url: https://www.fundacionctic.org/en/
+    location: Gijon, Spain
+    highlights:
+      - Assisted managers in commissioned blockchain projects and participated in meetings with customers about innovative blockchain applications, such as tracking cider bottles (https://sidradop.ctic.es/#/).
+      - Developed smart contracts in Solidity for a slot car racing set.
     positions:
-      - position: Senior Developer
-        startDate: 2016-02-19
-        endDate: 2019-05-31
-        highlights:
-          - This being the theory I hold, why need I be afraid of not being able to reconcile it with the case of my ancestors?
-          - "The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
-          - Do you really believe that they charged an armed enemy, or treated their children, their own flesh and blood, so cruelly, without a thought for their own interest or advantage?
+      - position: Intern
+        startDate: 2022-03-01
+        endDate: 2022-04-01
+
+  - organization: Max-Planck Institute for Nuclear Physics 
+    url: https://www.mpi-hd.mpg.de/mpi/en/
+    location: Heidelberg, Germany
+    highlights:
+      - Assisted researchers with their experiments on the lab and analysed their results
+      - Was instructed about the hazards of ionising radiation and the safety measures taken in environments with such exposure
+    positions:
+      - position: Intern
+        startDate: 2021-06-01
+        endDate: 2021-07-01
 
 education:
-  - institution: Open University
-    url: https://example.com/
+  - institution: University of Southampton
+    url: https://www.southampton.ac.uk/
+    area: Computer Science
+    studyType: BSc
+    startDate: 2021-09-24
+    endDate: 2024-06-01
+    location: Southampton, United Kingdom
+    # honors:
+    #   - First Class Honours
+    courses:
+      - Algorithmics
+      - Computer Systems
+      - Data Management
+      - Foundations of Computer Science
+      - Programming (Java and Haskell)
+      - Theory of Computing
+      - Intelligent Systems
+      - Programming Language Concepts
+      - Foundations of ML
+      - Advanced Computer Networks
+      - Distributed Systems
+      - Advanced Databases
+      - Web Architecture and Hypertext Technologies
+      - Engineering Management and Law
+    highlights:
+      - "*Dissertation*: A Modular Sound Synthesizer Based on Evolutionary Algorithms"
+      - "*Activities*: Decentralised Society, AISoc, Canoe Polo"
+  - institution: Polkadot Blockchain Academy
+    url: https://polkadot.network/development/blockchain-academy/
     area: Computer Science
     studyType: Bachelor of Science
-    startDate: 2017-08-01
-    endDate: 2021-06-30
-    location: City of London, United Kingdom
-    honors:
-      - 4.0 / 4.0 GPA
-      - President's List
-      - Dean's List
+    startDate: 2023-07-09
+    endDate: 2023-08-10
+    location: Berkely, CA, United States
+    # honors:
+    #   - Summa Cum Laude (4.0 GPA)
+    #   - President's List
+    #   - Dean's List
     courses:
-      - Algorithms & Data Structures
-      - Applications in Quantitative Finance
-      - Engineering Data Analysis
-      - Compiler Architecture
+      - Cryptography
+      - Economics and Game Theory
+      - Core Blockchain Concepts
+      - Smart Contracts
+      - Substrate
+      - FRAME and Pallets
+      - Polkadot, Parachains, and Cumulus
+      - Cross-Consensus Messaging (XCM)
     highlights:
-      - "*Thesis*: A convolutional neural network for predicting Greenland glacier melt and glacial water flow"
-      - "*Activities*: Debating, Chess, Cricket"
-  - institution: Harvard University
-    url:
-    area: Computer Science
-    studyType: Bachelor of Science
-    startDate: 2017-08-01
-    endDate: 2021-06-30
-    location: City of London, United Kingdom
-    honors:
-      - Summa Cum Laude (4.0 GPA)
-      - President's List
-      - Dean's List
-    courses:
-      - Algorithms & Data Structures
-      - Applications in Quantitative Finance
-      - Engineering Data Analysis
-      - Compiler Architecture
-    highlights:
-      - "*Thesis*: A convolutional neural network for predicting Greenland glacier melt and glacial water flow"
-      - "*Activities*: Debating, Chess, Cricket"
+      - "90% mark on the Rust acceptance exam"
 
-affiliations:
-  - organization: White Hat Hackers Association
-    position: Vice President for Internal Affairs
-    location: Cambridge, United Kingdom
-    url: https://example.com
-    startDate: 2020-05-30
-    endDate: 2021-05-30
-    highlights:
-      - But I must explain to you how all this mistaken idea of reprobating pleasure and extolling pain arose.
-      - But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
-      - Can you then suppose that those heroic men performed their famous deeds without any motive at all?
-  - organization: London Bridge Toastmasters Club
-    position: Member
-    location: City of London, United Kingdom
-    url:
-    startDate: 2022-06-15
-    endDate: 2023-06-30
-    highlights:
-      - Won Champion in the Division A District X Speech Evaluation Contest of Toastmasters International
-      - Promising Toastmaster of the Year (PY 2022-2023)
-      - Tell me, pray, what explanation do you put upon their actions?
+# affiliations:
+#   - organization: White Hat Hackers Association
+#     position: Vice President for Internal Affairs
+#     location: Cambridge, United Kingdom
+#     url: https://example.com
+#     startDate: 2020-05-30
+#     endDate: 2021-05-30
+#     highlights:
+#       - But I must explain to you how all this mistaken idea of reprobating pleasure and extolling pain arose.
+#       - But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+#       - Can you then suppose that those heroic men performed their famous deeds without any motive at all?
+#   - organization: London Bridge Toastmasters Club
+#     position: Member
+#     location: City of London, United Kingdom
+#     url:
+#     startDate: 2022-06-15
+#     endDate: 2023-06-30
+#     highlights:
+#       - Won Champion in the Division A District X Speech Evaluation Contest of Toastmasters International
+#       - Promising Toastmaster of the Year (PY 2022-2023)
+#       - Tell me, pray, what explanation do you put upon their actions?
 
-awards:
-  - title: Champion in the Division A District X Speech Evaluation Contest
-    date: 2023-05-09
-    issuer: Toastmasters International
-    url:
-    location: City of London, United Kingdom
-    highlights:
-  - title: "Finalist in the 2020 SCG Bangkok Business Challenge Global Competition"
-    date: 2020-07-12
-    issuer: Sasin School of Management
-    url:
-    location: Bangkok, Thailand
-    highlights:
-      - "Made it to the Top 5 (selected from over 100 teams) in the world for the semi-finals of the SCG Bangkok Business Challenge #sym.at Sasin 2020 Global Competition held at Bangkok, Thailand from July 7-12, 2020."
-      - "Served as the speaker and presented in the 60-second pitch round of the Opening Reception of the SCG Bangkok Business Challenge #sym.at Sasin 2022 for Team London Bridge."
+# awards:
+#   - title: Champion in the Division A District X Speech Evaluation Contest
+#     date: 2023-05-09
+#     issuer: Toastmasters International
+#     url:
+#     location: City of London, United Kingdom
+#     highlights:
+#   - title: "Finalist in the 2020 SCG Bangkok Business Challenge Global Competition"
+#     date: 2020-07-12
+#     issuer: Sasin School of Management
+#     url:
+#     location: Bangkok, Thailand
+#     highlights:
+#       - "Made it to the Top 5 (selected from over 100 teams) in the world for the semi-finals of the SCG Bangkok Business Challenge #sym.at Sasin 2020 Global Competition held at Bangkok, Thailand from July 7-12, 2020."
+#       - "Served as the speaker and presented in the 60-second pitch round of the Opening Reception of the SCG Bangkok Business Challenge #sym.at Sasin 2022 for Team London Bridge."
 
-certificates:
-  - name: "Learning How to Learn: Powerful mental tools to help you master tough subjects"
-    date: 2021-09-01
-    issuer: Coursera
-    url: https://example.com
+# certificates:
+#   - name: "Learning How to Learn: Powerful mental tools to help you master tough subjects"
+#     date: 2021-09-01
+#     issuer: Coursera
+#     url: https://example.com
 
-publications:
-  - name: A convolutional neural network for predicting Greenland glacier melt and glacial water flow
-    publisher: Theoretical and Computational Fluid Dynamics
-    releaseDate: 2020-09-30
-    url: https://example.com
+# publications:
+#   - name: A convolutional neural network for predicting Greenland glacier melt and glacial water flow
+#     publisher: Theoretical and Computational Fluid Dynamics
+#     releaseDate: 2020-09-30
+#     url: https://example.com
 
 projects:
   - name: "Job Tailor"
@@ -151,66 +174,53 @@ projects:
       - Generated profit of upwards \$20,000 yearly with a team of only four developers and three business operatives
 
 skills:
-  - category: Soft Skills
+  - category: Programming Languages
     skills:
-      - Public Speaking
-      - Debating
-      - Communication
-      - Critical Thinking
-      - Leadership
-      - Persuasive Writing
-      - Technical Writing
-  - category: Programming
-    skills:
+      - Rust
+      - Java
+      - JavaScript / TypeScript
       - Python
-      - SQL, PostgreSQL
-      - MATLAB/Octave
+      - Haskell
+      - C
+      - SQL
       - HTML
       - CSS
-      - Javascript
-      - Typst
-      - LaTeX
   - category: Tools
     skills:
-      - Microsoft Word
       - Git
-      - Docker
-      - Visual Studio Code
-      - Canva
-  - category: Web Development
+      - Figma
+      - Blender
+      - Logic Pro
+  - category: Frontend Development
     skills:
       - React
       - Next.js
-      - million.js
-      - Svelte & Sveltekit
-      - Tailwind CSS
+      - Svelte
       - Node.js
-      - Deno
-      - FastAPI
-      - Flask
-  - category: BI & Data Analytics
+      - Vue
+      - Tauri
+      - Yew.rs
+  - category: AI and Data Science tools
     skills:
-      - Microsoft Excel
-      - Microsoft Power BI
-      - Jupyter Notebook
       - Numpy
       - Pandas
-      - Plotly
-      - Altair
-
+      - Scikit-learn
+      - PyTorch
 languages:
+  - language: Spanish
+    fluency: native
   - language: English
-    fluency: Native speaker
-  - language: German
-    fluency: Native speaker
-  - language: Japanese
-    fluency: Basic proficiency
+    fluency: advanced
+  - language: French
+    fluency: intermediate
+  - language: Mandarin
+    fluency: basic
 
 interests:
-  - Video Games
-  - Anime
-  - Reading Non-fiction
-  - Classical and Original Soundtrack Music
+  # - Video Games
+  # - Anime
+  # - Reading Non-fiction
+  # - Classical and Original Soundtrack Music
 
 references:
   # You can comment out the entries below if you don't have any references
